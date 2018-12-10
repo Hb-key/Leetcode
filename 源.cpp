@@ -1,4 +1,3 @@
-
 //1.两数之和
 //class Solution {
 //public:
@@ -18,16 +17,27 @@
 //};
 
 //7.整数反转
-class Solution {
-public:
-	int reverse(int x) {
-		if (x > 0)
-		{
-			mol(n);
-		}
-	}
-	int mol(int n)
-	{
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
 
+int reverse(int x) {
+	int ret = 0;
+	while (x)
+	{
+		ret = 10 * ret + x % 10;
+		x = x / 10;
 	}
-};
+	if (x <(-2 ^ 31) || x >(2 ^ 31 - 1))
+	{
+		return 0;
+	}
+	return ret;
+}
+int main()
+{
+	int n = 0;
+	scanf("%d", &n);
+	int ret = reverse(n);
+	printf("%d\n", ret);
+	return 0;
+}
