@@ -1,4 +1,4 @@
-//1.Á½ÊıÖ®ºÍ
+//1.ä¸¤æ•°ä¹‹å’Œ
 //class Solution {
 //public:
 //	vector<int> twoSum(vector<int>& nums, int target) {
@@ -16,7 +16,7 @@
 //	}
 //};
 
-//7.ÕûÊı·´×ª
+//7.æ•´æ•°åè½¬
 //#define _CRT_SECURE_NO_WARNINGS
 //#include<stdio.h>
 //
@@ -33,16 +33,8 @@
 //	}
 //	return ret;
 //}
-//int main()
-//{
-//	int n = 0;
-//	scanf("%d", &n);
-//	int ret = reverse(n);
-//	printf("%d\n", ret);
-//	return 0;
-//}
 
-//9.»ØÎÄÊı
+//9.å›æ–‡æ•°
 class Solution {
 public:
 	bool isPalindrome(int x) {
