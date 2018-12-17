@@ -17,8 +17,6 @@
 //};
 
 //7.整数反转
-//#define _CRT_SECURE_NO_WARNINGS
-//#include<stdio.h>
 //
 //int reverse(int x) {
 //	int ret = 0;
