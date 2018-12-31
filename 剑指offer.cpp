@@ -1,36 +1,25 @@
-//2  ËΩ¨Êç¢
+//ø’∏ÒÃÊªª
 class Solution {
 public:
 	void replaceSpace(char *str, int length) {
-		if (str == NUll || length <= 0)
-			return;
-		int i = 0;
 		int blank = 0;
-		while (str[i] != '\0')
+		for (int i = 0; i < length; i++)
+		{
+			if (str[i] == ' ')
+				blank++;
+		}
+		int j = length + blank * 2 - 1;
+		for (int i = length - 1; i >= 0; i--)
 		{
 			if (str[i] == ' ')
 			{
-				blank++;
-				i++;
-			}
-		}
-		int j = i + 2 * blank;
-		while (blank)
-		{
-			if (str[i] != ' ')
-			{
-				str[j] = str[i];
-				i--;
-				j--;
+				str[j--] = '0';
+				str[j--] = '2';
+				str[j--] = '%';
 			}
 			else
 			{
-				str[j] = '0';
-				str[--j] = '2';
-				str[--j] = '%';
-				i--;
-				j--;
-				blank--;
+				str[j--] = str[i];
 			}
 		}
 	}
