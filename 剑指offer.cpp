@@ -1,4 +1,24 @@
-//空格替换
+//1.二维数组中的查找
+class Solution {
+public:
+	bool Find(int target, vector<vector<int> > array) {
+		if (array.size() < 0)
+			return false;
+		int i = 0;
+		int j = array[0].size() - 1;
+		while (j >= 0 && i < array.size())
+		{
+			if (target == array[i][j])
+				return true;
+			else if (target > array[i][j])
+				i++;
+			else if (target < array[i][j])
+				j--;
+		}
+		return false;
+	}
+};
+//2.空格替换
 class Solution {
 public:
 	void replaceSpace(char *str, int length) {
