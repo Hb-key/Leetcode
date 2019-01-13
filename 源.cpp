@@ -18,7 +18,8 @@
 
 //7.整数反转
 //
-//int reverse(int x) {
+//int reverse(int x) 
+//{
 //	int ret = 0;
 //	while (x)
 //	{
