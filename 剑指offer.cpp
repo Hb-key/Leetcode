@@ -1,4 +1,4 @@
-////1.二维数组中的查找
+////1.浜岀淮鏁扮粍涓殑鏌ユ壘
 //class Solution {
 //public:
 //	bool Find(int target, vector<vector<int> > array) {
@@ -18,7 +18,7 @@
 //		return false;
 //	}
 //};
-////2.空格替换
+////2.绌烘牸鏇挎崲
 //class Solution {
 //public:
 //	void replaceSpace(char *str, int length) {
@@ -44,7 +44,9 @@
 //		}
 //	}
 //};
-//3.斐波那契数列
+
+
+//3.鏂愭尝閭ｅ鏁板垪
 //class Solution {
 //public:
 //	int Fibonacci(int n) {
