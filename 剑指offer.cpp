@@ -18,7 +18,7 @@
 //		return false;
 //	}
 //};
-////2.空格替换
+////2.空格的替换
 //class Solution {
 //public:
 //	void replaceSpace(char *str, int length) {
